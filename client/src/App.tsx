@@ -24,7 +24,7 @@ function App() {
     try {
       const response = await axios({
         method: "POST",
-        url: `${baseURL}/api/v1/upload/file`,
+        url: `${baseURL}/upload/file`,
         data: formData,
         headers: {"Content-Type": "multipart/form-data"}
       });
