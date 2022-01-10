@@ -9,7 +9,6 @@ function App() {
       return;
     setFile(evt.target.files[0]);
   }
-
   return (
     <div className="App">
       <input type="file" onChange={onFileChange}/>
