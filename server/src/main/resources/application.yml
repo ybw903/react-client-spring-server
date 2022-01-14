@@ -3,3 +3,6 @@ spring:
     multipart:
       maxFileSize: 50MB
       maxRequestSize: 50MB
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/fasoo
